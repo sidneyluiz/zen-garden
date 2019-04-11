@@ -1,0 +1,2367 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: Helvetica, sans-serif;
+  min-width: 300px;
+}
+
+body {
+  color: #2b5556;
+}
+
+@media screen and (max-width: 600px) {
+  @keyframes animationnumber1 {
+    0% {
+      transform: scale(1);
+      height: auto;
+    }
+    2% {
+      transform: scale(0);
+      height: 0;
+    }
+    100% {
+      transform: scale(0);
+      height: 0;
+    }
+  }
+  @keyframes animationnumber2 {
+    0% {
+      height: 100%;
+    }
+    2% {
+      height: 100%;
+    }
+    3% {
+      height: 400px;
+    }
+    100% {
+      height: 400px;
+    }
+  }
+  @keyframes animationnumber3 {
+    0% {
+      top: 100%;
+    }
+    3% {
+      top: 100%;
+    }
+    4% {
+      top: 290px;
+    }
+    100% {
+      top: 290px;
+    }
+  }
+  @keyframes animationnumber4 {
+    0% {
+      height: 0px;
+    }
+    3% {
+      height: 0px;
+    }
+    4% {
+      height: 120px;
+    }
+    100% {
+      height: 120px;
+    }
+  }
+  @keyframes animationnumber5 {
+    0% {
+      top: calc( 100% + 480px);
+    }
+    4% {
+      top: calc( 100% + 480px);
+    }
+    5% {
+      top: 770px;
+    }
+    100% {
+      top: 770px;
+    }
+  }
+  @keyframes animationnumber6 {
+    0% {
+      top: calc(100% + 600px);
+    }
+    6% {
+      top: calc(100% + 600px);
+    }
+    7% {
+      top: 890px;
+    }
+    100% {
+      top: 890px;
+    }
+  }
+  @keyframes closemessage {
+    0% {
+      height: auto;
+    }
+    1% {
+      height: auto;
+      padding: 15px 20px;
+    }
+    2% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  @keyframes popup1 {
+    0% {
+      height: 0;
+      padding: 0 10px;
+    }
+    5% {
+      height: 0;
+      padding: 0 10px;
+    }
+    6% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    10% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    11% {
+      height: 0;
+      padding: 0 10px;
+    }
+    100% {
+      height: 0;
+      padding: 0 10px;
+    }
+  }
+  @keyframes popup2 {
+    0% {
+      height: 0;
+      padding: 0 10px;
+    }
+    12% {
+      height: 0;
+      padding: 0 10px;
+    }
+    13% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    18% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    19% {
+      height: 0;
+      padding: 0 10px;
+    }
+    100% {
+      height: 0;
+      padding: 0 10px;
+    }
+  }
+  @keyframes popup3 {
+    0% {
+      height: 0;
+      padding: 0 10px;
+    }
+    20% {
+      height: 0;
+      padding: 0 10px;
+    }
+    21% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    26% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    27% {
+      height: 0;
+      padding: 0 10px;
+    }
+    100% {
+      height: 0;
+      padding: 0 10px;
+    }
+  }
+  @keyframes popup4 {
+    0% {
+      height: 0;
+      padding: 0 10px;
+    }
+    28% {
+      height: 0;
+      padding: 0 10px;
+    }
+    29% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    34% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    35% {
+      height: 0;
+      padding: 0 10px;
+    }
+    100% {
+      height: 0;
+      padding: 0 10px;
+    }
+  }
+  @keyframes popup5 {
+    0% {
+      height: 0;
+      padding: 0 10px;
+    }
+    36% {
+      height: 0;
+      padding: 0 10px;
+    }
+    37% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    52% {
+      height: auto;
+      padding: 5px 10px;
+    }
+    53% {
+      height: 0;
+      padding: 0 10px;
+    }
+    100% {
+      height: 0;
+      padding: 0 10px;
+    }
+  }
+  @keyframes closemessageafter {
+    0% {
+      border-left: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #fff;
+    }
+    1% {
+      border-left: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #fff;
+    }
+    2% {
+      border: 0;
+    }
+    100% {
+      border: 0;
+    }
+  }
+  body {
+    display: block;
+    background-color: #8BBEBF;
+    height: 100%;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .page-wrapper {
+    width: 90%;
+    height: calc(100% - 50px);
+  }
+  .page-wrapper:after {
+    display: block;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    background-color: #2b5556;
+    background-image: url("https://i.ibb.co/ctbwr72/tap.png");
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    color: #fff;
+    width: 100%;
+    height: 50px;
+    content: "Press Here";
+  }
+
+  #zen-intro {
+    display: grid;
+    width: 100%;
+    grid-column-gap: 0px;
+    grid-template-areas: "a b" "c d" "e f";
+    grid-template-columns: 50%;
+    height: 400px;
+    overflow: hidden;
+    animation-name: animationnumber2;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-intro header {
+    display: block;
+    grid-area: a;
+    width: 200%;
+    overflow: hidden;
+    height: 0;
+    text-align: center;
+    animation-name: animationnumber1;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-intro header h1 {
+    padding-top: 130px;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    font-size: 30px;
+    padding-bottom: 50px;
+    animation-name: animationnumber1;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-intro header h2 {
+    display: block;
+    font-size: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+    animation-name: animationnumber1;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-intro .summary {
+    display: block;
+    width: 200%;
+    text-align: center;
+    grid-area: c;
+    height: 0;
+    overflow: hidden;
+    animation-name: animationnumber1;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-intro .summary p {
+    animation-name: animationnumber1;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-intro .summary p:nth-child(2) {
+    padding-bottom: 60px;
+  }
+  #zen-intro .preamble {
+    display: block;
+    position: absolute;
+    text-align: center;
+    left: calc(50% - 175px);
+    height: 290px;
+  }
+  #zen-intro .preamble p:nth-child(2) {
+    margin-top: 300px;
+    padding-top: 10px;
+  }
+  #zen-intro .preamble h3 {
+    display: none;
+  }
+  #zen-intro .preamble p {
+    display: block;
+    position: relative;
+    background: #fff;
+    width: 330px;
+    padding: 0 10px;
+    margin: 0 0 0 auto;
+    z-index: 999;
+    overflow: hidden;
+    animation-name: popup1;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-intro .preamble:before {
+    display: block;
+    position: absolute;
+    left: calc(50% - 180px);
+    width: 120px;
+    height: 120px;
+    content: " ";
+    background: #BADDDE;
+    border-radius: 15px 15px 0 0;
+    top: 50px;
+    overflow: hidden;
+    animation-name: animationnumber4;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-intro .preamble:after {
+    display: flex;
+    position: absolute;
+    left: calc(50% - 180px);
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    content: "The Road to Enlightenmen";
+    color: #fff;
+    background: #54797A;
+    top: 170px;
+    animation-name: animationnumber4;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+
+  #zen-supporting {
+    display: block;
+    position: absolute;
+    width: 360px;
+    top: 290px;
+    height: auto;
+    left: calc(50% - 180px);
+    padding-bottom: 300px;
+    animation-name: animationnumber3;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-supporting .explanation p:nth-child(2) {
+    margin-top: 280px;
+  }
+  #zen-supporting .explanation h3 {
+    display: none;
+  }
+  #zen-supporting .explanation p {
+    display: block;
+    position: relative;
+    background: #fff;
+    width: 330px;
+    padding: 0 10px;
+    margin: 0 0 0 auto;
+    z-index: 999;
+    height: 0;
+    overflow: hidden;
+    animation-name: popup2;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-supporting .explanation:before {
+    display: block;
+    position: absolute;
+    left: calc(50% - 180px);
+    width: 120px;
+    height: 120px;
+    content: " ";
+    background: #BADDDE;
+    top: 0px;
+  }
+  #zen-supporting .explanation:after {
+    display: flex;
+    position: absolute;
+    left: calc(50% - 180px);
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    content: "So What is This About?";
+    text-align: center;
+    color: #fff;
+    background: #54797A;
+    border-radius: 0 0 0 15px;
+    top: 120px;
+  }
+  #zen-supporting .participation p:nth-child(2) {
+    margin-top: -10px;
+    border-radius: 8px 0 0 0;
+  }
+  #zen-supporting .participation h3 {
+    display: none;
+  }
+  #zen-supporting .participation p {
+    display: block;
+    background: #fff;
+    width: 330px;
+    padding: 0 10px;
+    margin: 0 0 0 auto;
+    z-index: 999;
+    height: 0;
+    position: relative;
+    overflow: hidden;
+    animation-name: popup3;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-supporting .participation:before {
+    display: block;
+    position: absolute;
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
+    content: " ";
+    background: #BADDDE;
+    top: 120px;
+  }
+  #zen-supporting .participation:after {
+    display: flex;
+    position: absolute;
+    left: calc(50% + 60px);
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    content: "Participation";
+    text-align: center;
+    color: #fff;
+    background: #54797A;
+    border-radius: 0 15px 0 0;
+    top: 120px;
+  }
+  #zen-supporting .benefits p:nth-child(2) {
+    margin-top: 230px;
+    border-radius: 8px 0 0 0;
+  }
+  #zen-supporting .benefits h3 {
+    display: none;
+  }
+  #zen-supporting .benefits p {
+    display: block;
+    position: relative;
+    background: #fff;
+    width: 330px;
+    padding: 0 10px;
+    margin: 0 0 0 auto;
+    z-index: 999;
+    height: 0;
+    overflow: hidden;
+    animation-name: popup4;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-supporting .benefits:before {
+    display: block;
+    position: absolute;
+    left: calc(50% + 60px);
+    width: 120px;
+    height: 120px;
+    content: " ";
+    background: #BADDDE;
+    top: 240px;
+  }
+  #zen-supporting .benefits:after {
+    display: flex;
+    position: absolute;
+    left: calc(50% + 60px);
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    content: "Benefits";
+    text-align: center;
+    color: #fff;
+    background: #54797A;
+    border-radius: 0 0 15px 0;
+    top: 360px;
+  }
+  #zen-supporting .requirements p:nth-child(2) {
+    margin-top: -450px;
+    border-radius: 0 8px 0 0;
+  }
+  #zen-supporting .requirements h3 {
+    display: none;
+  }
+  #zen-supporting .requirements p {
+    display: block;
+    position: relative;
+    background: #fff;
+    width: 330px;
+    padding: 0 10px;
+    margin: 0 0 0 auto;
+    z-index: 999;
+    height: 0;
+    overflow: hidden;
+    animation-name: popup5;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  #zen-supporting .requirements:before {
+    display: block;
+    position: absolute;
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
+    content: " ";
+    background: #BADDDE;
+    top: 360px;
+  }
+  #zen-supporting .requirements:after {
+    display: flex;
+    position: absolute;
+    left: calc(50% - 180px);
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    content: "Requirements";
+    text-align: center;
+    color: #fff;
+    background: #54797A;
+    border-radius: 15px 0 0 0;
+    top: 360px;
+  }
+
+  .extra1:before {
+    display: block;
+    position: fixed;
+    bottom: 80px;
+    font-size: 14px;
+    right: 5%;
+    width: 50%;
+    border-radius: 5px;
+    height: auto;
+    content: "Press the button to continue and release to pause";
+    background: #fff;
+    padding: 15px 20px;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    animation-name: closemessage;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .extra1:after {
+    display: block;
+    content: " ";
+    bottom: 60px;
+    right: 15%;
+    position: fixed;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    overflow: hidden;
+    animation-name: closemessageafter;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+
+  .extra2:before {
+    display: block;
+    position: absolute;
+    left: calc(50% - 180px);
+    width: 120px;
+    height: 120px;
+    content: " ";
+    background: #BADDDE;
+    animation-name: animationnumber5;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .extra2:after {
+    display: flex;
+    position: absolute;
+    left: calc(50% - 180px);
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    content: "The End";
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    background: #54797A;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 70px;
+    animation-name: animationnumber6;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+
+  .page-wrapper:active #zen-intro header {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-intro header h1 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-intro header h2 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-intro .summary {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-intro .summary p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active + .extra1:before {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active + .extra1:after {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active ~ .extra2:before {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active ~ .extra2:after {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-intro .preamble p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-intro .preamble:before {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-intro .preamble:after {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-intro {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-supporting {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-supporting .explanation p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-supporting .participation p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-supporting .benefits p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active #zen-supporting .requirements p {
+    animation-play-state: running;
+  }
+
+  .sidebar {
+    display: none;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 1000px) {
+  @keyframes boxAnimation {
+    0% {
+      top: 100px;
+      left: 60%;
+    }
+    2% {
+      top: 300px;
+      left: 60%;
+      border-radius: 0;
+    }
+    4% {
+      top: 500px;
+      left: 60%;
+      border-radius: 0 0 50% 0;
+    }
+    12% {
+      top: 500px;
+      left: 60%;
+      border-radius: 0 0 50% 0;
+    }
+    14% {
+      top: 500px;
+      left: calc(60% - 200px);
+      border-radius: 0;
+    }
+    18% {
+      top: 500px;
+      left: calc(60% - 400px);
+      border-radius: 50% 0 0 0;
+    }
+    26% {
+      top: 500px;
+      left: calc(60% - 400px);
+      border-radius: 50% 0 0 0;
+    }
+    28% {
+      top: 700px;
+      left: calc(60% - 400px);
+      border-radius: 0;
+    }
+    30% {
+      top: 900px;
+      left: calc(60% - 400px);
+      border-radius: 0;
+    }
+    32% {
+      top: 1100px;
+      left: calc(60% - 400px);
+      border-radius: 0 0 0 50%;
+    }
+    40% {
+      top: 1100px;
+      left: calc(60% - 400px);
+      border-radius: 0 0 0 50%;
+    }
+    44% {
+      top: 1100px;
+      left: calc(60% - 200px);
+      border-radius: 0;
+    }
+    46% {
+      top: 1100px;
+      left: 60%;
+      border-radius: 0 50% 0 0;
+    }
+    54% {
+      top: 1100px;
+      left: 60%;
+      border-radius: 0 50% 0 0;
+    }
+    56% {
+      top: 1300px;
+      left: 60%;
+      border-radius: 0 0 0 0;
+    }
+    58% {
+      top: 1500px;
+      left: 60%;
+      border-radius: 0 0 0 0;
+    }
+    60% {
+      top: 1700px;
+      left: 60%;
+      border-radius: 0 0 50% 0;
+    }
+    68% {
+      top: 1700px;
+      left: 60%;
+      border-radius: 0 0 50% 0;
+    }
+    70% {
+      top: 1700px;
+      left: calc(60% - 200px);
+      border-radius: 0 0 0 0;
+    }
+    74% {
+      top: 1700px;
+      left: calc(60% - 400px);
+      border-radius: 50% 0 0 0;
+    }
+    76% {
+      top: 1900px;
+      left: calc(60% - 400px);
+      border-radius: 0 0 0 0;
+    }
+    78% {
+      top: 2100px;
+      left: calc(60% - 400px);
+      border-radius: 0 0 0 0;
+    }
+    100% {
+      top: 2100px;
+      left: calc(60% - 400px);
+      border-radius: 0 0 0 0;
+    }
+  }
+  @keyframes popup1 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    5% {
+      height: 0;
+      padding: 0;
+    }
+    6% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    12% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    14% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  @keyframes popup2 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    18% {
+      height: 0;
+      padding: 0;
+    }
+    20% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    26% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    28% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  @keyframes popup3 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    32% {
+      height: 0;
+      padding: 0;
+    }
+    34% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    40% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    42% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  @keyframes popup4 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    44% {
+      height: 0;
+      padding: 0;
+    }
+    46% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    52% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    54% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  @keyframes popup5 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    60% {
+      height: 0;
+      padding: 0;
+    }
+    62% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    68% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    70% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  body {
+    background-color: #8BBEBF;
+  }
+
+  .page-wrapper {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .page-wrapper::before {
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    height: 200px;
+    width: 200px;
+    background: #c0392b;
+    opacity: 0.3;
+    content: " ";
+    text-align: center;
+    top: 0;
+    animation-name: boxAnimation;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .page-wrapper:active::before {
+    animation-play-state: running;
+    content: "  ";
+    background: #27ae60;
+  }
+
+  .extra1::after {
+    display: block;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    top: 100px;
+    height: 400px;
+    content: "Start";
+    background-image: url(https://i.imgur.com/oCZGsR0.png);
+    z-index: 999;
+    left: 60%;
+  }
+
+  .intro {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    min-height: 300px;
+    z-index: 995;
+  }
+  .intro header {
+    display: block;
+    position: relative;
+    margin: 0 auto 0 0;
+    z-index: 995;
+    width: 60%;
+    height: auto;
+  }
+  .intro header h1 {
+    padding-top: 50px;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .intro header h2 {
+    display: block;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .intro .summary {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .intro .summary::after {
+    display: block;
+    width: 300px;
+    height: auto;
+    background: #2b5556;
+    padding: 15px;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 20px;
+    content: "Click anywhere on the path to advance in the game and release to pause! If green means that it is running, if red means it is paused.";
+  }
+  .intro .summary p {
+    margin-bottom: 5px;
+  }
+  .intro .preamble {
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 709px;
+    left: 60%;
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 999;
+  }
+  .intro .preamble h3, .intro .preamble p {
+    height: auto;
+    padding: 5px 15px;
+    overflow: hidden;
+    animation-name: popup1;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .intro .preamble::before {
+    display: flex;
+    position: absolute;
+    left: -1px;
+    top: -210px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "The Road to Enlightenment";
+    border-radius: 0 0 50% 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .intro .preamble::after {
+    display: flex;
+    position: absolute;
+    left: -201px;
+    top: -210px;
+    width: 200px;
+    height: 200px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+
+  .main {
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 500px;
+    background-color: #000;
+  }
+  .main .explanation {
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 210px;
+    left: calc(60% - 190px);
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 999;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .main .explanation h3, .main .explanation p {
+    overflow: hidden;
+    position: relative;
+    z-index: 999;
+    padding: 5px 10px;
+    animation-name: popup2;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .main .explanation::before {
+    display: flex;
+    position: absolute;
+    left: -211px;
+    top: -211px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "So What is This About?";
+    border-radius: 50% 0 0 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+    z-index: 998;
+  }
+  .main .explanation::after {
+    display: flex;
+    position: absolute;
+    left: -211px;
+    top: -11px;
+    width: 200px;
+    height: 400px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+  .main .participation {
+    display: block;
+    position: absolute;
+    width: 40%;
+    height: auto;
+    top: 619px;
+    left: calc(60% - 390px);
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 998;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .main .participation h3, .main .participation p {
+    display: block;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 9999 !important;
+    background: #fff;
+    overflow: hidden;
+    animation-name: popup3;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .main .participation::before {
+    display: flex;
+    position: absolute;
+    left: -11px;
+    top: -20px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "Participation";
+    border-radius: 0 0 0 50%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .main .participation::after {
+    display: flex;
+    position: absolute;
+    left: 190px;
+    top: -20px;
+    width: 200px;
+    height: 200px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+  .main .benefits {
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 819px;
+    right: calc(40% + 10px);
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 998;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .main .benefits h3, .main .benefits p {
+    display: block;
+    padding: 5px 10px;
+    z-index: 999;
+    overflow: hidden;
+    animation-name: popup4;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .main .benefits::before {
+    display: flex;
+    position: absolute;
+    right: -211px;
+    top: -220px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "Benefits";
+    border-radius: 0 50% 0 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .main .benefits::after {
+    display: flex;
+    position: absolute;
+    right: -211px;
+    top: -20px;
+    width: 200px;
+    height: 400px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+  .main .requirements {
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 719px;
+    right: calc(40% + 10px);
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 999;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .main .requirements h3, .main .requirements p {
+    display: block;
+    padding: 5px 10px;
+    z-index: 999;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    animation-name: popup5;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .main .requirements::before {
+    display: flex;
+    position: absolute;
+    right: -211px;
+    top: 480px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "Requirements";
+    border-radius: 0 0 50% 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .main .requirements::after {
+    display: flex;
+    position: absolute;
+    right: -11px;
+    top: 480px;
+    width: 200px;
+    height: 200px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+  .main footer {
+    display: none;
+  }
+
+  .sidebar {
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 1900px;
+    background-color: #0f0;
+  }
+  .sidebar .wrapper {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .sidebar .wrapper::before {
+    display: flex;
+    position: absolute;
+    right: calc(40% + 200px);
+    top: -201px;
+    width: 198px;
+    height: 198px;
+    background: #BADDDE;
+    border: 1px solid #fff;
+    content: " ";
+    border-radius: 50% 0 0 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .sidebar .wrapper::after {
+    display: flex;
+    position: absolute;
+    right: calc(40% + 200px);
+    top: 0;
+    width: 198px;
+    height: 198px;
+    background: #BADDDE;
+    border: 1px solid #fff;
+    content: " ";
+    border-radius: 0 0 0 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .sidebar .wrapper .design-selection {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: 997;
+  }
+  .sidebar .wrapper .design-selection::before {
+    display: flex;
+    position: absolute;
+    right: calc(40% + 200px);
+    top: 200px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "Select a Design";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 997;
+  }
+  .sidebar .wrapper .design-selection h3 {
+    display: block;
+    width: 200px;
+    margin-left: 50%;
+    margin-top: 180px;
+  }
+  .sidebar .wrapper .design-selection nav {
+    display: block;
+    width: 400px;
+    margin-left: 50%;
+  }
+  .sidebar .wrapper .design-selection nav ul {
+    list-style: none;
+    width: 400px;
+  }
+  .sidebar .wrapper .design-selection nav ul li {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .sidebar .wrapper .design-archives {
+    display: flex;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    height: 100px;
+    top: 500px;
+  }
+  .sidebar .wrapper .design-archives ul {
+    list-style: none;
+  }
+  .sidebar .wrapper .zen-resources {
+    right: 0;
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    top: 500px;
+  }
+  .sidebar .wrapper .zen-resources ul {
+    list-style: none;
+  }
+
+  .page-wrapper:active .preamble h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .preamble p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .explanation h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .explanation p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .participation h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .participation p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .benefits h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .benefits p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .requirements h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .requirements p {
+    animation-play-state: running;
+  }
+}
+@media screen and (min-width: 1000px) {
+  @keyframes boxAnimation {
+    0% {
+      top: 100px;
+      left: 60%;
+    }
+    2% {
+      top: 300px;
+      left: 60%;
+      border-radius: 0;
+    }
+    4% {
+      top: 500px;
+      left: 60%;
+      border-radius: 0 0 50% 0;
+    }
+    12% {
+      top: 500px;
+      left: 60%;
+      border-radius: 0 0 50% 0;
+    }
+    14% {
+      top: 500px;
+      left: calc(60% - 200px);
+      border-radius: 0;
+    }
+    16% {
+      top: 500px;
+      left: calc(60% - 400px);
+      border-radius: 0;
+    }
+    18% {
+      top: 500px;
+      left: calc(60% - 600px);
+      border-radius: 50% 0 0 0;
+    }
+    26% {
+      top: 500px;
+      left: calc(60% - 600px);
+      border-radius: 50% 0 0 0;
+    }
+    28% {
+      top: 700px;
+      left: calc(60% - 600px);
+      border-radius: 0;
+    }
+    30% {
+      top: 900px;
+      left: calc(60% - 600px);
+      border-radius: 0;
+    }
+    32% {
+      top: 1100px;
+      left: calc(60% - 600px);
+      border-radius: 0 0 0 50%;
+    }
+    40% {
+      top: 1100px;
+      left: calc(60% - 600px);
+      border-radius: 0 0 0 50%;
+    }
+    42% {
+      top: 1100px;
+      left: calc(60% - 400px);
+      border-radius: 0;
+    }
+    44% {
+      top: 1100px;
+      left: calc(60% - 200px);
+      border-radius: 0;
+    }
+    46% {
+      top: 1100px;
+      left: 60%;
+      border-radius: 0 50% 0 0;
+    }
+    54% {
+      top: 1100px;
+      left: 60%;
+      border-radius: 0 50% 0 0;
+    }
+    56% {
+      top: 1300px;
+      left: 60%;
+      border-radius: 0 0 0 0;
+    }
+    58% {
+      top: 1500px;
+      left: 60%;
+      border-radius: 0 0 0 0;
+    }
+    60% {
+      top: 1700px;
+      left: 60%;
+      border-radius: 0 0 50% 0;
+    }
+    68% {
+      top: 1700px;
+      left: 60%;
+      border-radius: 0 0 50% 0;
+    }
+    70% {
+      top: 1700px;
+      left: calc(60% - 200px);
+      border-radius: 0 0 0 0;
+    }
+    72% {
+      top: 1700px;
+      left: calc(60% - 400px);
+      border-radius: 0 0 0 0;
+    }
+    74% {
+      top: 1700px;
+      left: calc(60% - 600px);
+      border-radius: 50% 0 0 0;
+    }
+    76% {
+      top: 1900px;
+      left: calc(60% - 600px);
+      border-radius: 0 0 0 0;
+    }
+    78% {
+      top: 2100px;
+      left: calc(60% - 600px);
+      border-radius: 0 0 0 0;
+    }
+    100% {
+      top: 2100px;
+      left: calc(60% - 600px);
+      border-radius: 0 0 0 0;
+    }
+  }
+  @keyframes popup1 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    5% {
+      height: 0;
+      padding: 0;
+    }
+    6% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    12% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    14% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  @keyframes popup2 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    18% {
+      height: 0;
+      padding: 0;
+    }
+    20% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    26% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    28% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  @keyframes popup3 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    32% {
+      height: 0;
+      padding: 0;
+    }
+    34% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    40% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    42% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  @keyframes popup4 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    44% {
+      height: 0;
+      padding: 0;
+    }
+    46% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    52% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    54% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  @keyframes popup5 {
+    0% {
+      height: 0;
+      padding: 0;
+    }
+    60% {
+      height: 0;
+      padding: 0;
+    }
+    62% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    68% {
+      height: auto;
+      padding: 5px 15px;
+    }
+    70% {
+      height: 0;
+      padding: 0;
+    }
+    100% {
+      height: 0;
+      padding: 0;
+    }
+  }
+  body {
+    background-color: #8BBEBF;
+  }
+
+  .page-wrapper {
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+  .page-wrapper::before {
+    display: flex;
+    position: absolute;
+    z-index: 9999;
+    height: 200px;
+    width: 200px;
+    background: #c0392b;
+    opacity: 0.3;
+    content: " ";
+    text-align: center;
+    top: 0;
+    animation-name: boxAnimation;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .page-wrapper:active::before {
+    animation-play-state: running;
+    content: "  ";
+    background: #27ae60;
+  }
+
+  .extra1::after {
+    display: block;
+    color: #fff;
+    line-height: 200px;
+    text-align: center;
+    position: absolute;
+    width: 200px;
+    top: 100px;
+    height: 400px;
+    content: "Start";
+    background-image: url(https://i.imgur.com/oCZGsR0.png);
+    z-index: 999;
+    left: 60%;
+  }
+
+  .intro {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    min-height: 300px;
+    z-index: 995;
+  }
+  .intro header {
+    display: block;
+    position: relative;
+    margin: 0 auto 0 0;
+    z-index: 995;
+    width: 60%;
+    height: auto;
+  }
+  .intro header h1 {
+    padding-top: 50px;
+    margin-left: 80px;
+    display: block;
+    width: 100%;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .intro header h2 {
+    display: block;
+    font-size: 20px;
+    margin-left: 80px;
+  }
+  .intro .summary {
+    display: block;
+    width: 40%;
+    height: auto;
+    margin-left: 80px;
+    margin-top: 30px;
+  }
+  .intro .summary::after {
+    display: block;
+    width: 300px;
+    height: auto;
+    background: #2b5556;
+    padding: 15px;
+    border-radius: 7px;
+    color: #fff;
+    margin-top: 20px;
+    content: "Click anywhere on the path to advance in the game and release to pause! If green means that it is running, if red means it is paused.";
+  }
+  .intro .summary p {
+    margin-bottom: 5px;
+  }
+  .intro .preamble {
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 709px;
+    left: 60%;
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 999;
+  }
+  .intro .preamble h3, .intro .preamble p {
+    height: auto;
+    padding: 5px 15px;
+    overflow: hidden;
+    animation-name: popup1;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .intro .preamble::before {
+    display: flex;
+    position: absolute;
+    left: -1px;
+    top: -210px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "The Road to Enlightenment";
+    border-radius: 0 0 50% 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .intro .preamble::after {
+    display: flex;
+    position: absolute;
+    left: -401px;
+    top: -210px;
+    width: 400px;
+    height: 200px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+
+  .main {
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 500px;
+    background-color: #000;
+  }
+  .main .explanation {
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 210px;
+    left: calc(60% - 390px);
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 999;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .main .explanation h3, .main .explanation p {
+    overflow: hidden;
+    padding: 5px 10px;
+    animation-name: popup2;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .main .explanation::before {
+    display: flex;
+    position: absolute;
+    left: -211px;
+    top: -211px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "So What is This About?";
+    border-radius: 50% 0 0 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    text-align: center;
+    z-index: 998;
+  }
+  .main .explanation::after {
+    display: flex;
+    position: absolute;
+    left: -211px;
+    top: -11px;
+    width: 200px;
+    height: 400px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+  .main .participation {
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 519px;
+    left: calc(60% - 390px);
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 999;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .main .participation h3, .main .participation p {
+    display: block;
+    padding: 5px 10px;
+    position: relative;
+    z-index: 999;
+    background: #fff;
+    overflow: hidden;
+    animation-name: popup3;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .main .participation::before {
+    display: flex;
+    position: absolute;
+    left: -211px;
+    top: 80px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "Participation";
+    border-radius: 0 0 0 50%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .main .participation::after {
+    display: flex;
+    position: absolute;
+    left: -11px;
+    top: 80px;
+    width: 402px;
+    height: 200px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+  .main .benefits {
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 819px;
+    right: calc(40% + 10px);
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 998;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .main .benefits h3, .main .benefits p {
+    display: block;
+    padding: 5px 10px;
+    z-index: 999;
+    overflow: hidden;
+    animation-name: popup4;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .main .benefits::before {
+    display: flex;
+    position: absolute;
+    right: -211px;
+    top: -220px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "Benefits";
+    border-radius: 0 50% 0 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .main .benefits::after {
+    display: flex;
+    position: absolute;
+    right: -211px;
+    top: -20px;
+    width: 200px;
+    height: 400px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+  .main .requirements {
+    display: block;
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 819px;
+    right: calc(40% + 10px);
+    background-color: #fff;
+    color: #2b5556;
+    z-index: 999;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.6);
+  }
+  .main .requirements h3, .main .requirements p {
+    display: block;
+    padding: 5px 10px;
+    z-index: 999;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+    animation-name: popup5;
+    animation-duration: 50s;
+    animation-play-state: paused;
+  }
+  .main .requirements::before {
+    display: flex;
+    position: absolute;
+    right: -211px;
+    top: 380px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "Requirements";
+    border-radius: 0 0 50% 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .main .requirements::after {
+    display: flex;
+    position: absolute;
+    right: -11px;
+    top: 380px;
+    width: 400px;
+    height: 200px;
+    background: #BADDDE;
+    content: " ";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    background-image: url(https://i.imgur.com/IQTGM9c.png);
+    z-index: 998;
+  }
+  .main footer {
+    display: none;
+  }
+
+  .sidebar {
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    top: 1900px;
+    background-color: #0f0;
+  }
+  .sidebar .wrapper {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .sidebar .wrapper::before {
+    display: flex;
+    position: absolute;
+    right: calc(40% + 399px);
+    top: -201px;
+    width: 198px;
+    height: 198px;
+    background: #BADDDE;
+    border: 1px solid #fff;
+    content: " ";
+    border-radius: 50% 0 0 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .sidebar .wrapper::after {
+    display: flex;
+    position: absolute;
+    right: calc(40% + 399px);
+    top: -1px;
+    width: 198px;
+    height: 198px;
+    background: #BADDDE;
+    border: 1px solid #fff;
+    content: " ";
+    border-radius: 0 0 0 0;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .sidebar .wrapper .design-selection {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+  }
+  .sidebar .wrapper .design-selection::before {
+    display: flex;
+    position: absolute;
+    right: calc(40% + 399px);
+    top: 199px;
+    width: 198px;
+    height: 198px;
+    background: #54797A;
+    border: 1px solid #fff;
+    content: "Select a Design";
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    z-index: 998;
+  }
+  .sidebar .wrapper .design-selection h3 {
+    display: block;
+    width: 200px;
+    margin-right: calc(40% + 180px);
+    margin-top: 180px;
+  }
+  .sidebar .wrapper .design-selection nav {
+    display: block;
+    width: 400px;
+    margin-right: calc(40% - 20px);
+  }
+  .sidebar .wrapper .design-selection nav ul {
+    list-style: none;
+    width: 400px;
+  }
+  .sidebar .wrapper .design-selection nav ul li {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .sidebar .wrapper .design-archives {
+    display: flex;
+    position: absolute;
+    width: 50%;
+    left: 0;
+    height: 100px;
+    top: 500px;
+  }
+  .sidebar .wrapper .design-archives ul {
+    list-style: none;
+  }
+  .sidebar .wrapper .zen-resources {
+    right: 0;
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    top: 500px;
+  }
+  .sidebar .wrapper .zen-resources ul {
+    list-style: none;
+  }
+
+  .page-wrapper:active .preamble h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .preamble p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .explanation h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .explanation p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .participation h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .participation p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .benefits h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .benefits p {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .requirements h3 {
+    animation-play-state: running;
+  }
+
+  .page-wrapper:active .requirements p {
+    animation-play-state: running;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
